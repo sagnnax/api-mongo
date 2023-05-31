@@ -10,6 +10,6 @@ const mySchema = new mongoose.Schema({
     comment: String,
   });
 
-const MyModelComment = mongoose.model('MyModel2', mySchema, 'bdnosql_comments');
+const MyModelComment = mongoose.model('MyModel2', mySchema, 'nosql_comments');
 
 module.exports = MyModelComment
