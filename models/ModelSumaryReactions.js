@@ -14,6 +14,6 @@ const mySchema = new mongoose.Schema({
     },
 });
 
-const MyModel = mongoose.model('MyModel', mySchema, 'bdnosql_sumaryReactions');
+const MyModel = mongoose.model('MyModel', mySchema, 'nosql_sumaryReactions');
 
 module.exports = MyModel
